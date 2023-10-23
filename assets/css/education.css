@@ -1,0 +1,25 @@
+.education {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.education li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.education li .title::before {
+
+    content: " ";
+    width: 2rem;
+    height: 1rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/assets/img/icons/check.svg);
+    margin-right: .5rem;
+}
